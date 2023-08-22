@@ -30,4 +30,12 @@ console.log (userInfo_4);
 // Scrivere in pagina il risultato
 informationElement.innerHTML = userInfo_1 + userInfo_2 + userInfo_3 + userInfo_4;
 
+// Recuperare l'anno corrente
+let currentYear = 2023;
+
+// Sottrarre l'anno corrente agli anni dell'utente
+let birthYear = currentYear - Number(userInfo_4);
+
+// Scrivere in console dell'inspector il risultato
+console.log(birthYear);
 
